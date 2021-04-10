@@ -90,6 +90,9 @@ declare type Location = {
 
 declare type RawLocation = string | Location
 
+declare type RawLocation2 = string | Location
+
+
 declare type Route = {
   path: string;
   name: ?string;
